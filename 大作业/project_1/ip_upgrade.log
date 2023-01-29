@@ -1,0 +1,37 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 23 16:32:21 2021
+| Host         : Mei running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'c_counter_binary_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of c_counter_binary_2 (xilinx.com:ip:c_counter_binary:12.0) from (Rev. 12) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 23 14:55:26 2021
+| Host         : Mei running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'c_counter_binary_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of c_counter_binary_0 (xilinx.com:ip:c_counter_binary:12.0) from (Rev. 12) to (Rev. 9)
+

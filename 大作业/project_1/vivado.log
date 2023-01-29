@@ -1,0 +1,1375 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Dec 28 15:18:26 2021
+# Process ID: 9572
+# Current directory: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17144 H:\digital_logic\Greedy-Snake-Verilog\Full_Project_on_Vivado2018\project_1\project_1.xpr
+# Log file: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/vivado.log
+# Journal file: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 887.281 ; gain = 164.227
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_driver.v
+update_compile_order -fileset sources_1
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {65} CONFIG.MMCM_DIVCLK_DIVIDE {4} CONFIG.MMCM_CLKFBOUT_MULT_F {39} CONFIG.MMCM_CLKOUT0_DIVIDE_F {15} CONFIG.CLKOUT1_JITTER {238.418} CONFIG.CLKOUT1_PHASE_ERROR {240.486}] [get_ips my_clk_wiz_1]
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+generate_target all [get_files  H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'my_clk_wiz_1'...
+export_ip_user_files -of_objects [get_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci] -no_script -force -quiet
+reset_run my_clk_wiz_1_synth_1
+launch_run -jobs 8 my_clk_wiz_1_synth_1
+[Tue Dec 28 21:05:39 2021] Launched my_clk_wiz_1_synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/my_clk_wiz_1_synth_1/runme.log
+INFO: [Vivado 12-4357] Exporting simulation files for 'my_clk_wiz_1'... please wait for 'my_clk_wiz_1_synth_1' run to finish...
+wait_on_run my_clk_wiz_1_synth_1
+[Tue Dec 28 21:05:39 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Tue Dec 28 21:05:44 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Tue Dec 28 21:05:49 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Tue Dec 28 21:05:54 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Tue Dec 28 21:06:04 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Tue Dec 28 21:06:09 2021] my_clk_wiz_1_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:30 . Memory (MB): peak = 1210.188 ; gain = 5.293
+export_simulation -of_objects [get_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci] -directory H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files -ipstatic_source_dir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/ipstatic -force -quiet
+update_compile_order -fileset sources_1
+remove_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_sync_generator.v
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_driver.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_driver.v:1]
+[Tue Dec 28 21:32:52 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/seg.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/seg.v:1]
+[Tue Dec 28 21:33:25 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 21:34:07 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 21:34:35 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/seg.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/seg.v:1]
+[Tue Dec 28 21:35:57 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Dec 28 21:36:41 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Dec 28 21:38:02 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292709542A
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 21:40:42 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Dec 28 21:41:37 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Dec 28 21:43:58 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 21:55:08 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Dec 28 21:56:31 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Dec 28 21:58:27 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 22:02:55 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Dec 28 22:03:37 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Dec 28 22:05:33 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 22:57:23 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 22:58:00 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Dec 28 22:58:42 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Dec 28 23:00:35 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 23:03:05 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Dec 28 23:04:28 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Dec 28 23:06:05 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+file mkdir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sim_1/new/top_tb.v w ]
+add_files -fileset sim_1 H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sim_1/new/top_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_cdc_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_gray
+INFO: [VRFC 10-311] analyzing module xpm_cdc_handshake
+INFO: [VRFC 10-311] analyzing module xpm_cdc_pulse
+INFO: [VRFC 10-311] analyzing module xpm_cdc_array_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_sync_rst
+INFO: [VRFC 10-311] analyzing module xpm_cdc_async_rst
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/bcdto8segment_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcdto8segment_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/ip/my_clk_wiz_1/my_clk_wiz_1_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_clk_wiz_1
+INFO: [VRFC 10-311] analyzing module my_clk_wiz_1_my_clk_wiz_1_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/turn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module get_direction
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/apple.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apple
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+ERROR: [VRFC 10-46] i is already declared [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:72]
+ERROR: [VRFC 10-1040] module display ignored due to previous errors [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+"xvhdl -m64 --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd" into library xpm
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_cdc_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_gray
+INFO: [VRFC 10-311] analyzing module xpm_cdc_handshake
+INFO: [VRFC 10-311] analyzing module xpm_cdc_pulse
+INFO: [VRFC 10-311] analyzing module xpm_cdc_array_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_sync_rst
+INFO: [VRFC 10-311] analyzing module xpm_cdc_async_rst
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/bcdto8segment_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcdto8segment_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/ip/my_clk_wiz_1/my_clk_wiz_1_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_clk_wiz_1
+INFO: [VRFC 10-311] analyzing module my_clk_wiz_1_my_clk_wiz_1_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/turn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module get_direction
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/apple.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apple
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/score.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module score
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/snake.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module snake
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.sim/sim_1/behav/glbl.v:6]
+"xvhdl -m64 --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd" into library xpm
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: H:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto f659b5e530c94d59be5ba32a5589c3d2 --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1047] module instantiation should have an instance name [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:53]
+ComMsgMgrException: > not found while processing module instance <%s>: Invalid c_string in format.
+
+ERROR: [VRFC 10-2063] Module <display> not found while processing module instance <'Undefined'>
+ComMsgMgrException: > not found while processing module instance <%s>: Invalid c_string in format.
+
+ERROR: [VRFC 10-2063] Module <snake> not found while processing module instance <'Undefined'>
+ComMsgMgrException: > not found while processing module instance <%s>: Invalid c_string in format.
+
+ERROR: [VRFC 10-2063] Module <fsm> not found while processing module instance <'Undefined'>
+ERROR: [VRFC 10-2063] Module <get_direction> not found while processing module instance <Get_direction> [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:97]
+ComMsgMgrException: > not found while processing module instance <%s>: Invalid c_string in format.
+
+ERROR: [VRFC 10-2063] Module <apple> not found while processing module instance <'Undefined'>
+ComMsgMgrException: > not found while processing module instance <%s>: Invalid c_string in format.
+
+ERROR: [VRFC 10-2063] Module <score> not found while processing module instance <'Undefined'>
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 23:20:35 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Dec 28 23:21:47 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Dec 28 23:23:40 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 23:35:16 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Dec 28 23:36:21 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Dec 28 23:38:22 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Tue Dec 28 23:47:33 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Dec 28 23:48:24 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Dec 28 23:50:08 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+remove_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v
+update_compile_order -fileset sources_1
+remove_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_driver.v
+add_files -norecurse {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_sync_generator.v H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_sync_generator.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_sync_generator.v:1]
+[Tue Dec 28 23:59:19 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Wed Dec 29 00:00:10 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Dec 29 00:01:34 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {148.5} CONFIG.MMCM_DIVCLK_DIVIDE {5} CONFIG.MMCM_CLKFBOUT_MULT_F {52} CONFIG.MMCM_CLKOUT0_DIVIDE_F {7} CONFIG.CLKOUT1_JITTER {220.768} CONFIG.CLKOUT1_PHASE_ERROR {300.278}] [get_ips my_clk_wiz_1]
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+generate_target all [get_files  H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'my_clk_wiz_1'...
+export_ip_user_files -of_objects [get_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci] -no_script -force -quiet
+reset_run my_clk_wiz_1_synth_1
+launch_run -jobs 8 my_clk_wiz_1_synth_1
+[Wed Dec 29 00:04:33 2021] Launched my_clk_wiz_1_synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/my_clk_wiz_1_synth_1/runme.log
+INFO: [Vivado 12-4357] Exporting simulation files for 'my_clk_wiz_1'... please wait for 'my_clk_wiz_1_synth_1' run to finish...
+wait_on_run my_clk_wiz_1_synth_1
+[Wed Dec 29 00:04:33 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Wed Dec 29 00:04:38 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Wed Dec 29 00:04:43 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Wed Dec 29 00:04:49 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Wed Dec 29 00:04:59 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Wed Dec 29 00:05:04 2021] my_clk_wiz_1_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:30 . Memory (MB): peak = 1392.109 ; gain = 0.000
+export_simulation -of_objects [get_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci] -directory H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files -ipstatic_source_dir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/ipstatic -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed Dec 29 00:05:11 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Wed Dec 29 00:05:58 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Dec 29 00:07:26 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+remove_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v
+update_compile_order -fileset sources_1
+add_files -norecurse H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v
+update_compile_order -fileset sources_1
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {65} CONFIG.MMCM_DIVCLK_DIVIDE {4} CONFIG.MMCM_CLKFBOUT_MULT_F {39} CONFIG.MMCM_CLKOUT0_DIVIDE_F {15} CONFIG.CLKOUT1_JITTER {238.418} CONFIG.CLKOUT1_PHASE_ERROR {240.486}] [get_ips my_clk_wiz_1]
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 11c8	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+generate_target all [get_files  H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'my_clk_wiz_1'...
+export_ip_user_files -of_objects [get_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci] -no_script -force -quiet
+reset_run my_clk_wiz_1_synth_1
+launch_run -jobs 8 my_clk_wiz_1_synth_1
+[Wed Dec 29 00:13:07 2021] Launched my_clk_wiz_1_synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/my_clk_wiz_1_synth_1/runme.log
+INFO: [Vivado 12-4357] Exporting simulation files for 'my_clk_wiz_1'... please wait for 'my_clk_wiz_1_synth_1' run to finish...
+wait_on_run my_clk_wiz_1_synth_1
+[Wed Dec 29 00:13:07 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Wed Dec 29 00:13:12 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Wed Dec 29 00:13:18 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Wed Dec 29 00:13:23 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Wed Dec 29 00:13:33 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Wed Dec 29 00:13:38 2021] my_clk_wiz_1_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:30 . Memory (MB): peak = 1403.906 ; gain = 0.055
+export_simulation -of_objects [get_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci] -directory H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files -ipstatic_source_dir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/ipstatic -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_sync_generator.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_sync_generator.v:1]
+[Wed Dec 29 00:14:43 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Wed Dec 29 00:16:05 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Dec 29 00:17:34 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Wed Dec 29 00:28:40 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Wed Dec 29 00:29:44 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Wed Dec 29 00:30:31 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Dec 29 00:33:14 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+remove_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v
+update_compile_order -fileset sources_1
+add_files -norecurse H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+[Wed Dec 29 00:41:06 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Wed Dec 29 00:41:58 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Dec 29 00:43:31 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 29 00:48:04 2021...

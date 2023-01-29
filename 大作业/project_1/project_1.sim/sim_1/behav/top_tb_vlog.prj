@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "H:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/bcdto8segment_dataflow.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/vga_driver.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/seg.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.ip_user_files/ip/my_clk_wiz_1/my_clk_wiz_1_sim_netlist.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/turn.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/apple.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/display.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/fsm.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/score.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/snake.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/top.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../project_1.srcs/sim_1/new/top_tb.v" --include "../../../project_1.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

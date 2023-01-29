@@ -1,0 +1,756 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Dec 23 16:26:28 2021
+# Process ID: 19368
+# Current directory: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20112 H:\digital_logic\Greedy-Snake-Verilog\Full_Project_on_Vivado2018\project_1\project_1.xpr
+# Log file: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/vivado.log
+# Journal file: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/launch_1320x770_8_paint.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2016.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'c_counter_binary_3' is locked:
+* IP definition 'Binary Counter (12.0)' for IP 'c_counter_binary_3' has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'c_counter_binary_2' is locked:
+* IP definition 'Binary Counter (12.0)' for IP 'c_counter_binary_2' has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'c_counter_binary_1' is locked:
+* IP definition 'Binary Counter (12.0)' for IP 'c_counter_binary_1' has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 898.984 ; gain = 188.137
+update_compile_order -fileset sources_1
+remove_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/launch_1320x770_8_paint.coe
+convert_ips [get_files  H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_1/c_counter_binary_1.xci]
+ERROR: [Vivado 12-4810] IP 'c_counter_binary_1' is locked and cannot be converted:
+
+* IP definition 'Binary Counter (12.0)' for IP 'c_counter_binary_1' has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+export_ip_user_files -of_objects [get_ips  c_counter_binary_2] -no_script -reset -quiet
+upgrade_ip -vlnv xilinx.com:ip:c_counter_binary:12.0 [get_ips  c_counter_binary_2] -log ip_upgrade.log
+Upgrading 'c_counter_binary_2'
+INFO: [IP_Flow 19-3422] Upgraded c_counter_binary_2 (Binary Counter 12.0) from revision 12 to revision 9
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_counter_binary_2'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/ip_upgrade.log'.
+convert_ips [get_files  H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci]
+INFO: [filemgmt 56-106] Converting IP 'c_counter_binary_2' into core container format.
+INFO: [filemgmt 56-101] Creating core container 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_2.xcix' for IP 'c_counter_binary_2'
+export_ip_user_files -of_objects  [get_files  H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci] -sync -force -quiet
+generate_target all [get_files  H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_counter_binary_2'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'c_counter_binary_2'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'c_counter_binary_2'...
+export_ip_user_files -of_objects [get_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci] -no_script -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci]
+launch_run -jobs 8 c_counter_binary_2_synth_1
+[Thu Dec 23 16:32:36 2021] Launched c_counter_binary_2_synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/c_counter_binary_2_synth_1/runme.log
+INFO: [Vivado 12-4357] Exporting simulation files for 'c_counter_binary_2'... please wait for 'c_counter_binary_2_synth_1' run to finish...
+wait_on_run c_counter_binary_2_synth_1
+[Thu Dec 23 16:32:36 2021] Waiting for c_counter_binary_2_synth_1 to finish...
+[Thu Dec 23 16:32:41 2021] Waiting for c_counter_binary_2_synth_1 to finish...
+[Thu Dec 23 16:32:46 2021] Waiting for c_counter_binary_2_synth_1 to finish...
+[Thu Dec 23 16:32:51 2021] Waiting for c_counter_binary_2_synth_1 to finish...
+[Thu Dec 23 16:33:01 2021] Waiting for c_counter_binary_2_synth_1 to finish...
+[Thu Dec 23 16:33:11 2021] Waiting for c_counter_binary_2_synth_1 to finish...
+[Thu Dec 23 16:33:16 2021] c_counter_binary_2_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:40 . Memory (MB): peak = 898.984 ; gain = 0.000
+export_simulation -of_objects [get_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci] -directory H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files -ipstatic_source_dir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/ipstatic -force -quiet
+update_compile_order -fileset sources_1
+remove_files {H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_1/c_counter_binary_1.xci H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_3/c_counter_binary_3.xci}
+remove_files -fileset c_counter_binary_0 H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci
+INFO: [Project 1-386] Moving file 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci' from fileset 'c_counter_binary_0' to fileset 'sources_1'.
+INFO: [Project 1-386] Moving file 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_0.xcix' from fileset 'c_counter_binary_0' to fileset 'sources_1'.
+file delete -force H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/ip/c_counter_binary_0 H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/sim_scripts/c_counter_binary_0
+remove_files -fileset c_counter_binary_2 H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci
+INFO: [Project 1-386] Moving file 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci' from fileset 'c_counter_binary_2' to fileset 'sources_1'.
+INFO: [Project 1-386] Moving file 'H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/c_counter_binary_2.xcix' from fileset 'c_counter_binary_2' to fileset 'sources_1'.
+file delete -force H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/ip/c_counter_binary_2 H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/sim_scripts/c_counter_binary_2
+launch_runs synth_1 -jobs 8
+[Thu Dec 23 16:48:10 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Dec 23 16:49:06 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+set_property -dict [list CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false}] [get_ips my_clk_wiz_1]
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0A: 1041	-CLKOUT1 Register 1
+DADDR_0B: 00c0	-CLKOUT1 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0C: 1041	-CLKOUT2 Register 1
+DADDR_0D: 00c0	-CLKOUT2 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_0E: 1041	-CLKOUT3 Register 1
+DADDR_0F: 00c0	-CLKOUT3 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_10: 1041	-CLKOUT4 Register 1
+DADDR_11: 00c0	-CLKOUT4 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_06: 1041	-CLKOUT5 Register 1
+DADDR_07: 00c0	-CLKOUT5 Register 2
+DADDR_08: 10c4	-CLKOUT0 Register 1
+DADDR_09: 0080	-CLKOUT0 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+
+	WARNING: Min duty cycle violation 0.500 < 1.0
+	         Changing dutycycle to 1.0
+
+
+	WARNING: Max duty cycle is 1.0 > 0.0
+	         Changing dutycycle to 0.0
+
+DADDR_12: 1041	-CLKOUT6 Register 1
+DADDR_13: 00c0	-CLKOUT6 Register 2
+generate_target all [get_files  H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'my_clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'my_clk_wiz_1'...
+export_ip_user_files -of_objects [get_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci] -no_script -force -quiet
+reset_run my_clk_wiz_1_synth_1
+launch_run -jobs 8 my_clk_wiz_1_synth_1
+[Thu Dec 23 17:12:00 2021] Launched my_clk_wiz_1_synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/my_clk_wiz_1_synth_1/runme.log
+INFO: [Vivado 12-4357] Exporting simulation files for 'my_clk_wiz_1'... please wait for 'my_clk_wiz_1_synth_1' run to finish...
+wait_on_run my_clk_wiz_1_synth_1
+[Thu Dec 23 17:12:01 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Thu Dec 23 17:12:06 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Thu Dec 23 17:12:11 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Thu Dec 23 17:12:16 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Thu Dec 23 17:12:26 2021] Waiting for my_clk_wiz_1_synth_1 to finish...
+[Thu Dec 23 17:12:31 2021] my_clk_wiz_1_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:30 . Memory (MB): peak = 1051.941 ; gain = 0.000
+export_simulation -of_objects [get_files H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/ip/my_clk_wiz_1/my_clk_wiz_1.xci] -directory H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files -ipstatic_source_dir H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.ip_user_files/ipstatic -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu Dec 23 17:14:03 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Dec 23 17:15:43 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-2216] Analyzing Verilog file "H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v" into library work [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:1]
+[Thu Dec 23 17:18:39 2021] Launched synth_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Dec 23 17:19:31 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+[Thu Dec 23 17:20:35 2021] Launched impl_1...
+Run output will be captured here: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 23 17:21:01 2021...

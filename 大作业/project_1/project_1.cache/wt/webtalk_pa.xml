@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sat Jan 08 19:55:28 2022">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="0cfb5ed1bb9343dc996615dac7f16f87" type="ProjectID"/>
+<property name="ProjectIteration" value="214" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddCfgMem" value="2" type="JavaHandler"/>
+<property name="AddSources" value="28" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="48" type="JavaHandler"/>
+<property name="BootDevice" value="2" type="JavaHandler"/>
+<property name="CloseProject" value="3" type="JavaHandler"/>
+<property name="CopyIPHandler" value="6" type="JavaHandler"/>
+<property name="CoreView" value="7" type="JavaHandler"/>
+<property name="CustomizeCore" value="6" type="JavaHandler"/>
+<property name="EditCopy" value="3" type="JavaHandler"/>
+<property name="EditDelete" value="32" type="JavaHandler"/>
+<property name="EditPaste" value="2" type="JavaHandler"/>
+<property name="EditProperties" value="8" type="JavaHandler"/>
+<property name="EditUndo" value="57" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="197" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenFile" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="73" type="JavaHandler"/>
+<property name="ProgramCfgMem" value="8" type="JavaHandler"/>
+<property name="ProgramDevice" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="4" type="JavaHandler"/>
+<property name="ProjectSummary" value="3" type="JavaHandler"/>
+<property name="RecustomizeCore" value="71" type="JavaHandler"/>
+<property name="RefreshDevice" value="2" type="JavaHandler"/>
+<property name="RefreshTarget" value="1" type="JavaHandler"/>
+<property name="ReportIPStatus" value="1" type="JavaHandler"/>
+<property name="ResetLayout" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="185" type="JavaHandler"/>
+<property name="RunDesignAhead" value="1" type="JavaHandler"/>
+<property name="RunImplementation" value="37" type="JavaHandler"/>
+<property name="RunSynthesis" value="43" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="26" type="JavaHandler"/>
+<property name="SaveLayoutAs" value="1" type="JavaHandler"/>
+<property name="SaveProjectAs" value="1" type="JavaHandler"/>
+<property name="SetGlobalInclude" value="2" type="JavaHandler"/>
+<property name="SetTopNode" value="3" type="JavaHandler"/>
+<property name="ShowSource" value="1" type="JavaHandler"/>
+<property name="ShowView" value="70" type="JavaHandler"/>
+<property name="SimulationRun" value="2" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="41" type="JavaHandler"/>
+<property name="ToolsSettings" value="16" type="JavaHandler"/>
+<property name="ToolsTemplates" value="1" type="JavaHandler"/>
+<property name="UpdateSourceFiles" value="4" type="JavaHandler"/>
+<property name="UpgradeIP" value="2" type="JavaHandler"/>
+<property name="ViewLayoutCmd" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="3" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="24" type="JavaHandler"/>
+<property name="ui.views.c.h.f" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, top (top.v" value="12" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.xpr, 0" value="1" type="GuiResourceData"/>
+<property name="seg.v, 200, 195" value="1" type="GuiResourceData"/>
+<property name="top.v, 87, 293, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="top.v, 88, 293" value="1" type="GuiResourceData"/>
+<property name="vga_sync_generator.v, 372, 161" value="1" type="GuiResourceData"/>
+<property name="vga_sync_generator.v, 372, 161, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_sync_generator.v, 473, 167" value="1" type="GuiResourceData"/>
+<property name="vga_sync_generator.v, 483, 163, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_sync_generator.v, 483, 164" value="1" type="GuiResourceData"/>
+<property name="vga_sync_generator.v, 619, 217" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="92" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="75" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

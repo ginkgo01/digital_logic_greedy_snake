@@ -1,0 +1,13 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: H:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto f659b5e530c94d59be5ba32a5589c3d2 --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1047] module instantiation should have an instance name [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:53]
+ERROR: [VRFC 10-2063] Module <display> not found while processing module instance <'Undefined'>
+ERROR: [VRFC 10-2063] Module <snake> not found while processing module instance <'Undefined'>
+ERROR: [VRFC 10-2063] Module <fsm> not found while processing module instance <'Undefined'>
+ERROR: [VRFC 10-2063] Module <get_direction> not found while processing module instance <Get_direction> [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:97]
+ERROR: [VRFC 10-2063] Module <apple> not found while processing module instance <'Undefined'>
+ERROR: [VRFC 10-2063] Module <score> not found while processing module instance <'Undefined'>
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

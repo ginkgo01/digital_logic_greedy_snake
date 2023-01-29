@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Dec 29 00:13:09 2021
+# Process ID: 2016
+# Current directory: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/my_clk_wiz_1_synth_1
+# Command line: vivado.exe -log my_clk_wiz_1.vds -mode batch -messageDb vivado.pb -notrace -source my_clk_wiz_1.tcl
+# Log file: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/my_clk_wiz_1_synth_1/my_clk_wiz_1.vds
+# Journal file: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/my_clk_wiz_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source my_clk_wiz_1.tcl -notrace

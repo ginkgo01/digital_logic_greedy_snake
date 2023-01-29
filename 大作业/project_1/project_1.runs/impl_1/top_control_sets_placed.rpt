@@ -1,0 +1,80 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Jan 03 01:06:17 2022
+| Host         : Mei running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    27 |
+| Unused register locations in slices containing registers |    80 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               9 |            8 |
+| No           | No                    | Yes                    |              20 |           14 |
+| No           | Yes                   | No                     |              62 |           16 |
+| Yes          | No                    | No                     |             397 |          121 |
+| Yes          | No                    | Yes                    |              47 |           17 |
+| Yes          | Yes                   | No                     |             473 |          152 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------------+-----------------------------------------------+-----------------------------------------------------+------------------+----------------+
+|                 Clock Signal                 |                 Enable Signal                 |                   Set/Reset Signal                  | Slice Load Count | Bel Load Count |
++----------------------------------------------+-----------------------------------------------+-----------------------------------------------------+------------------+----------------+
+|  CLK100MHZ_IBUF_BUFG                         |                                               | AUD/Audio/clk_out_reg_0                             |                1 |              1 |
+|  nolabel_line58/nolabel_line18/inst/clk_out1 |                                               |                                                     |                3 |              3 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/E[0]                           | nolabel_line88/SR[0]                                |                3 |              4 |
+|  CLK100MHZ_IBUF_BUFG                         |                                               |                                                     |                5 |              6 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/snake_x_reg[0][5][0]           | nolabel_line88/SR[0]                                |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/snake_y_reg[0][5][0]           | nolabel_line88/SR[0]                                |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG                         | AUD/Audio/clk_out_reg_0                       | AUD/n_2[16]_i_1_n_3                                 |                4 |              8 |
+|  nolabel_line58/nolabel_line18/inst/clk_out1 |                                               | nolabel_line58/nolabel_line44/vga_reg[0]            |                2 |             10 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/apple_x_reg[0][0]              | nolabel_line88/SR[0]                                |                4 |             11 |
+|  nolabel_line58/nolabel_line18/inst/clk_out1 | nolabel_line58/nolabel_line44/x_counter_max   | nolabel_line58/nolabel_line44/y_counter[10]_i_1_n_3 |                3 |             11 |
+|  nolabel_line58/nolabel_line18/inst/clk_out1 |                                               | nolabel_line58/nolabel_line44/x_counter_max         |                3 |             12 |
+|  CLK100MHZ_IBUF_BUFG                         |                                               | nolabel_line88/SR[0]                                |                4 |             14 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line119/nolabel_line56/seg[6]_i_1_n_3 | reset_IBUF                                          |               11 |             15 |
+|  CLK100MHZ_IBUF_BUFG                         | AUD/Audio/clk_out_reg_0                       |                                                     |                7 |             17 |
+|  CLK100MHZ_IBUF_BUFG                         |                                               | reset_IBUF                                          |               13 |             19 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/snake_y_reg[1][0][0]           | nolabel_line88/SR[0]                                |                6 |             24 |
+|  CLK100MHZ_IBUF_BUFG                         |                                               | nolabel_line72/clear                                |                7 |             26 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/count_reg[25][0]               | nolabel_line88/snake_y_reg[31][0]                   |                7 |             26 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/count_two[27]_i_2_n_3          | nolabel_line88/count_two[27]_i_1_n_3                |                7 |             28 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line72/snake_piece_is_display0        | nolabel_line72/snake_piece_is_display[31]_i_1_n_3   |               16 |             29 |
+|  CLK100MHZ_IBUF_BUFG                         | AUD/Audio/counter[31]_i_1_n_3                 | AUD/Audio/clk_out_reg_0                             |                6 |             32 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/Myscore_reg[0]_0               | nolabel_line88/Myscore_reg[0]                       |                8 |             32 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/count_reg[25][0]               |                                                     |               15 |             32 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line119/total_time0                   | nolabel_line88/SR[0]                                |                8 |             32 |
+|  CLK100MHZ_IBUF_BUFG                         | AUD/AUD_SD_OBUF                               | nolabel_line72/counter_reg[127]                     |               32 |            128 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/total_time_10ns_reg[0]         | nolabel_line88/SR[0]                                |               50 |            128 |
+|  CLK100MHZ_IBUF_BUFG                         | nolabel_line88/snake_y_reg[31][0]             |                                                     |               99 |            348 |
++----------------------------------------------+-----------------------------------------------+-----------------------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,6 @@
+sv xil_defaultlib "H:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" --include "../../../ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib "../../../ip/my_clk_wiz_1/my_clk_wiz_1_sim_netlist.v" --include "../../../ipstatic/clk_wiz_v5_3_1"
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

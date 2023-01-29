@@ -1,0 +1,611 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jan 03 01:03:13 2022
+# Process ID: 2536
+# Current directory: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log top.vds -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/top.vds
+# Journal file: H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/.Xil/Vivado-2536-Mei/my_clk_wiz_1/my_clk_wiz_1.dcp]
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2148 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 306.633 ; gain = 99.441
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:3]
+	Parameter PAUSED bound to: 2'b00 
+	Parameter PLAYING bound to: 2'b01 
+	Parameter DIE_FLASHING bound to: 2'b10 
+	Parameter INITIALIZING bound to: 2'b11 
+WARNING: [Synth 8-387] label required on module instance [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:58]
+INFO: [Synth 8-638] synthesizing module 'display' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+	Parameter PAUSED bound to: 2'b00 
+	Parameter PLAYING bound to: 2'b01 
+	Parameter DIE_FLASHING bound to: 2'b10 
+	Parameter INITIALIZING bound to: 2'b11 
+	Parameter UP bound to: 2'b00 
+	Parameter RIGHT bound to: 2'b01 
+	Parameter DOWN bound to: 2'b10 
+	Parameter LEFT bound to: 2'b11 
+	Parameter h_active_pixels bound to: 1920 - type: integer 
+	Parameter v_active_pixels bound to: 1080 - type: integer 
+WARNING: [Synth 8-387] label required on module instance [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:18]
+INFO: [Synth 8-638] synthesizing module 'my_clk_wiz_1' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/.Xil/Vivado-2536-Mei/realtime/my_clk_wiz_1_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'my_clk_wiz_1' (1#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/.Xil/Vivado-2536-Mei/realtime/my_clk_wiz_1_stub.v:5]
+WARNING: [Synth 8-387] label required on module instance [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:44]
+INFO: [Synth 8-638] synthesizing module 'vga_sync_generator' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_sync_generator.v:3]
+	Parameter h_active_pixels bound to: 1024 - type: integer 
+	Parameter h_front_porch bound to: 24 - type: integer 
+	Parameter h_sync_width bound to: 136 - type: integer 
+	Parameter h_back_porch bound to: 160 - type: integer 
+	Parameter h_total_piexls bound to: 1344 - type: integer 
+	Parameter v_active_pixels bound to: 768 - type: integer 
+	Parameter v_front_porch bound to: 3 - type: integer 
+	Parameter v_sync_width bound to: 6 - type: integer 
+	Parameter v_back_porch bound to: 29 - type: integer 
+	Parameter v_total_piexls bound to: 806 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_sync_generator' (2#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/vga_sync_generator.v:3]
+INFO: [Synth 8-256] done synthesizing module 'display' (3#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:1]
+WARNING: [Synth 8-387] label required on module instance [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:72]
+INFO: [Synth 8-638] synthesizing module 'snake' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/snake.v:3]
+	Parameter PAUSED bound to: 2'b00 
+	Parameter PLAYING bound to: 2'b01 
+	Parameter DIE_FLASHING bound to: 2'b10 
+	Parameter INITIALIZING bound to: 2'b11 
+	Parameter UP bound to: 2'b00 
+	Parameter RIGHT bound to: 2'b01 
+	Parameter DOWN bound to: 2'b10 
+	Parameter LEFT bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/snake.v:150]
+INFO: [Synth 8-256] done synthesizing module 'snake' (4#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/snake.v:3]
+WARNING: [Synth 8-387] label required on module instance [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:88]
+INFO: [Synth 8-638] synthesizing module 'fsm' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/fsm.v:3]
+	Parameter PAUSED bound to: 2'b00 
+	Parameter PLAYING bound to: 2'b01 
+	Parameter DIE_FLASHING bound to: 2'b10 
+	Parameter INITIALIZING bound to: 2'b11 
+INFO: [Synth 8-256] done synthesizing module 'fsm' (5#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/fsm.v:3]
+INFO: [Synth 8-638] synthesizing module 'get_direction' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/turn.v:3]
+	Parameter UP bound to: 2'b00 
+	Parameter RIGHT bound to: 2'b01 
+	Parameter DOWN bound to: 2'b10 
+	Parameter LEFT bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/turn.v:19]
+INFO: [Synth 8-256] done synthesizing module 'get_direction' (6#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/turn.v:3]
+WARNING: [Synth 8-387] label required on module instance [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:111]
+INFO: [Synth 8-638] synthesizing module 'apple' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/apple.v:3]
+	Parameter LAUNCHING bound to: 2'b00 
+	Parameter PLAYING bound to: 2'b01 
+	Parameter DIE_FLASHING bound to: 2'b10 
+	Parameter INITIALIZING bound to: 2'b11 
+INFO: [Synth 8-256] done synthesizing module 'apple' (7#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/apple.v:3]
+WARNING: [Synth 8-387] label required on module instance [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:119]
+INFO: [Synth 8-638] synthesizing module 'score' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/score.v:3]
+	Parameter LAUNCHING bound to: 2'b00 
+	Parameter PLAYING bound to: 2'b01 
+	Parameter DIE_FLASHING bound to: 2'b10 
+	Parameter INITIALIZING bound to: 2'b11 
+WARNING: [Synth 8-387] label required on module instance [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/score.v:56]
+INFO: [Synth 8-638] synthesizing module 'seg' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/seg.v:3]
+INFO: [Synth 8-638] synthesizing module 'bcdto8segment_dataflow' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/bcdto8segment_dataflow.v:3]
+INFO: [Synth 8-256] done synthesizing module 'bcdto8segment_dataflow' (8#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/bcdto8segment_dataflow.v:3]
+INFO: [Synth 8-256] done synthesizing module 'seg' (9#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/seg.v:3]
+INFO: [Synth 8-256] done synthesizing module 'score' (10#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/score.v:3]
+INFO: [Synth 8-638] synthesizing module 'Audio' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/audio.v:44]
+INFO: [Synth 8-638] synthesizing module 'get_wave' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/audio.v:3]
+WARNING: [Synth 8-5788] Register clk_out_reg in module get_wave is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/audio.v:25]
+WARNING: [Synth 8-5788] Register counter_reg in module get_wave is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/audio.v:26]
+INFO: [Synth 8-256] done synthesizing module 'get_wave' (11#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/audio.v:3]
+INFO: [Synth 8-256] done synthesizing module 'Audio' (12#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/audio.v:44]
+INFO: [Synth 8-256] done synthesizing module 'top' (13#1) [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/top.v:3]
+WARNING: [Synth 8-3331] design display has unconnected port game_status[1]
+WARNING: [Synth 8-3331] design display has unconnected port game_status[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 347.602 ; gain = 140.410
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 347.602 ; gain = 140.410
+---------------------------------------------------------------------------------
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/.Xil/Vivado-2536-Mei/my_clk_wiz_1/my_clk_wiz_1.dcp]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'my_clk_wiz_1' instantiated as 'nolabel_line58/nolabel_line18' [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/display.v:18]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/.Xil/Vivado-2536-Mei/dcp/my_clk_wiz_1_in_context.xdc] for cell 'nolabel_line58/nolabel_line18'
+Finished Parsing XDC File [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/.Xil/Vivado-2536-Mei/dcp/my_clk_wiz_1_in_context.xdc] for cell 'nolabel_line58/nolabel_line18'
+Parsing XDC File [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/constrs_1/imports/Digital_Circuit/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/constrs_1/imports/Digital_Circuit/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/constrs_1/imports/Digital_Circuit/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 660.309 ; gain = 0.000
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.runs/synth_1/.Xil/Vivado-2536-Mei/my_clk_wiz_1/my_clk_wiz_1.dcp]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 660.309 ; gain = 453.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 660.309 ; gain = 453.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 660.309 ; gain = 453.117
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/snake.v:150]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [H:/digital_logic/Greedy-Snake-Verilog/Full_Project_on_Vivado2018/project_1/project_1.srcs/sources_1/new/snake.v:150]
+INFO: [Synth 8-5544] ROM "is_pause" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "snake_piece_is_display" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "snake_piece_is_display" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "snake_piece_is_display" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "current_direction" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "game_status" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "game_status" won't be mapped to RAM because address size (28) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "count_two" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "random_for_x" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "total_time_10ns" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "total_time" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "n_2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "is_pause" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 660.309 ; gain = 453.117
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     28 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 5     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               28 Bit    Registers := 1     
+	               19 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 66    
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 8     
++---Multipliers : 
+	                23x32  Multipliers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input     28 Bit        Muxes := 1     
+	   9 Input     19 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 1     
+	   8 Input     18 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 5     
+	  11 Input      8 Bit        Muxes := 7     
+	   8 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 8     
+	   2 Input      6 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 30    
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+	   9 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module vga_sync_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module display 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 5     
+Module snake 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                6 Bit    Registers := 64    
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Multipliers : 
+	                23x32  Multipliers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module fsm 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     28 Bit       Adders := 1     
++---Registers : 
+	               28 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     28 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 1     
+Module get_direction 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   6 Input      2 Bit        Muxes := 1     
+Module apple 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 3     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module bcdto8segment_dataflow 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      8 Bit        Muxes := 1     
+Module seg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
++---Registers : 
+	               19 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   9 Input     19 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   9 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module score 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module get_wave 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
+Module Audio 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   8 Input     18 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 660.309 ; gain = 453.117
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design display has unconnected port game_status[1]
+WARNING: [Synth 8-3331] design display has unconnected port game_status[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 660.309 ; gain = 453.117
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 660.309 ; gain = 453.117
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[29]' (FDE) to 'AUD/n_2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[31]' (FDE) to 'AUD/n_2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[30]' (FDE) to 'AUD/n_2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[25]' (FDE) to 'AUD/n_2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[26]' (FDE) to 'AUD/n_2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[27]' (FDE) to 'AUD/n_2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[28]' (FDE) to 'AUD/n_2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[19]' (FDE) to 'AUD/n_2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[20]' (FDE) to 'AUD/n_2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[18]' (FDE) to 'AUD/n_2_reg[21]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[23]' (FDE) to 'AUD/n_2_reg[21]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[24]' (FDE) to 'AUD/n_2_reg[21]'
+INFO: [Synth 8-3886] merging instance 'AUD/n_2_reg[21]' (FDE) to 'AUD/n_2_reg[22]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\AUD/n_2_reg[22] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line58/vga_reg[4]' (FD) to 'nolabel_line58/vga_reg[5]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line58/vga_reg[8]' (FD) to 'nolabel_line58/vga_reg[9]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (nolabel_line119/nolabel_line56/\seg_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (nolabel_line58/vga_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line58/vga_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_x_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_x_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_x_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_x_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_x_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_x_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_y_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_y_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_y_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_y_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_y_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_y_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/random_for_y_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (seg_reg[7]) is unused and will be removed from module seg.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[31]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[30]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[29]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[28]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[27]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[26]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[25]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[24]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[23]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[22]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[21]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[20]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (AUD/n_2_reg[0]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 660.309 ; gain = 453.117
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 660.309 ; gain = 453.117
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'nolabel_line58/nolabel_line18/clk_out1' to pin 'nolabel_line58/nolabel_line18/bbstub_clk_out1/O'
+INFO: [Synth 8-5820] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 725.000 ; gain = 517.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 742.969 ; gain = 535.777
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line111/apple_y_reg[5] )
+WARNING: [Synth 8-3332] Sequential element (nolabel_line111/apple_y_reg[5]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 820.582 ; gain = 613.391
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 820.582 ; gain = 613.391
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 820.582 ; gain = 613.391
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop nolabel_line58/nolabel_line44/in_display_area_reg is being inverted and renamed to nolabel_line58/nolabel_line44/in_display_area_reg_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 820.582 ; gain = 613.391
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 820.582 ; gain = 613.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 820.582 ; gain = 613.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 820.582 ; gain = 613.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 820.582 ; gain = 613.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 820.582 ; gain = 613.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |my_clk_wiz_1  |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |my_clk_wiz_1 |     1|
+|2     |BUFG         |     1|
+|3     |CARRY4       |  1190|
+|4     |LUT1         |   641|
+|5     |LUT2         |   983|
+|6     |LUT3         |  2569|
+|7     |LUT4         |  1474|
+|8     |LUT5         |   356|
+|9     |LUT6         |  2477|
+|10    |MUXF7        |     1|
+|11    |FDCE         |    67|
+|12    |FDRE         |   910|
+|13    |FDSE         |    31|
+|14    |IBUF         |    12|
+|15    |OBUF         |    32|
++------+-------------+------+
+
+Report Instance Areas: 
++------+-------------------+-------------------+------+
+|      |Instance           |Module             |Cells |
++------+-------------------+-------------------+------+
+|1     |top                |                   | 10745|
+|2     |  AUD              |Audio              |   511|
+|3     |    Audio          |get_wave           |   139|
+|4     |  Get_direction    |get_direction      |     2|
+|5     |  nolabel_line111  |apple              |    56|
+|6     |  nolabel_line119  |score              |  8450|
+|7     |    nolabel_line56 |seg                |  1464|
+|8     |  nolabel_line58   |display            |   256|
+|9     |    nolabel_line44 |vga_sync_generator |   197|
+|10    |  nolabel_line72   |snake              |  1075|
+|11    |  nolabel_line88   |fsm                |   128|
++------+-------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 820.582 ; gain = 613.391
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 34 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 820.582 ; gain = 271.031
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 820.582 ; gain = 613.391
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1202 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+78 Infos, 50 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 820.582 ; gain = 589.531
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 820.582 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 03 01:04:10 2022...
